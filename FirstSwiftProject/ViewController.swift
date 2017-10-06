@@ -20,7 +20,14 @@ class ViewController: UIViewController
 
     @IBAction func firstButton(_ sender: UIButton)
     {
-        firstButton.backgroundColor = .magenta
+        if (firstButton.backgroundColor == .red)
+        {
+            firstButton.backgroundColor = .blue
+        }
+        else
+        {
+            firstButton.backgroundColor = .red
+        }
     }
   
    
