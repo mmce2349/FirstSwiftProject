@@ -20,7 +20,7 @@ class ViewController: UIViewController
 
     @IBAction func firstButton(_ sender: UIButton)
     {
-        
+        firstButton.backgroundColor = .magenta
     }
   
    
