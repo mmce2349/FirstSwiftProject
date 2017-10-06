@@ -54,14 +54,30 @@
 		0B32F93E1F87C8DE006D2C6D /* FirstSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
-				0B32F93F1F87C8DE006D2C6D /* AppDelegate.swift */,
-				0B32F9411F87C8DE006D2C6D /* ViewController.swift */,
+				0B32F9521F87D985006D2C6D /* Controller */,
 				0B32F9431F87C8DE006D2C6D /* Main.storyboard */,
 				0B32F9461F87C8DE006D2C6D /* Assets.xcassets */,
 				0B32F9481F87C8DE006D2C6D /* LaunchScreen.storyboard */,
-				0B32F94B1F87C8DE006D2C6D /* Info.plist */,
+				0B32F9511F87D92E006D2C6D /* Settings */,
 			);
 			path = FirstSwiftProject;
+			sourceTree = "<group>";
+		};
+		0B32F9511F87D92E006D2C6D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0B32F94B1F87C8DE006D2C6D /* Info.plist */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		0B32F9521F87D985006D2C6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B32F93F1F87C8DE006D2C6D /* AppDelegate.swift */,
+				0B32F9411F87C8DE006D2C6D /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
